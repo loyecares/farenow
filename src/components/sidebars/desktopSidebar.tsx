@@ -35,7 +35,7 @@ const DesktopSidebar = () => {
         show
           ? "w-[100px] bg-blue text-white"
           : "w-[100px] bg-blue text-white"
-      }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]  max-md:w-[70px] h-screen   `}
+      }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]  max-md:w-[100px] h-screen   `}
     >
       <div
         className={`${
