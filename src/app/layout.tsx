@@ -6,6 +6,9 @@ import DesktopSidebar from "@/components/sidebars/desktopSidebar";
 import NotificationIcon from "@/components/icons/NotificationIcon";
 import ProfileIcon from "@/components/icons/ProfileIcon";
 
+import Image from "next/image";
+
+
 
 
 const Albert = Albert_Sans({ subsets: ["latin"] });
@@ -38,7 +41,11 @@ export default function RootLayout({
                     <p className="font-semibold decoration-black">Dafe Smith</p>
                     <p className="text-grey text-xs">Cleaner</p>
                   </div>
-                  <ProfileIcon/>
+                 
+                 
+                  <Image src="/images/pp.png" alt="profile" 
+                    width={70}
+                    height={70} className="max-sm:w-[50px] max-sm:h-[50px]"/>
 
                 </div>
 
