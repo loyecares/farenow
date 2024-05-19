@@ -21,6 +21,10 @@ const config: Config = {
       "special": "#9E9CFF",
 
     },
+    fontFamily:{
+      "Albert Sans":["Albert Sans", "sans-serif"],
+
+    },
 
     extend: {
       backgroundImage: {

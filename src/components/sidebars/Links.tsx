@@ -14,7 +14,7 @@ const NavLink: FC<navProps> = ({ text, icon: Icon, route, style }) => {
     <div>
       <Link
         href={route}
-        className={`flex items-center justify-center gap-2 hover:scale-[1.09] transition-all ease-in duration-150 dark:text-white `}
+        className={`flex items-center justify-center gap-2 hover:scale-[1.09] transition-all ease-in duration-150  `}
       >
         {/* icon */}
         <p className={`${style} text-xl mb-[0.17rem] pl-1 `}>{<Icon />}</p>

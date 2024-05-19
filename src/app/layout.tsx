@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Albert_Sans } from "next/font/google";
 import "./globals.css";
 import DesktopSidebar from "@/components/sidebars/desktopSidebar";
 import NotificationIcon from "@/components/icons/NotificationIcon";
@@ -7,7 +8,7 @@ import ProfileIcon from "@/components/icons/ProfileIcon";
 
 
 
-const inter = Inter({ subsets: ["latin"] });
+const Albert = Albert_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Dashboard",
@@ -21,8 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="max-h-full flex  dark:bg-[#000000]">
+      <body className={Albert.className}>
+        <div className="max-h-full flex  ">
           <DesktopSidebar />
            {/* <TabletSidebar /> */}
       

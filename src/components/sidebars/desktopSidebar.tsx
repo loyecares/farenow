@@ -35,7 +35,7 @@ const DesktopSidebar = () => {
         show
           ? "w-[100px] bg-blue text-white"
           : "w-[50px] bg-blue text-white"
-      }  flex items-center border-r border-gray-100 dark:border-gray-600 sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]  max-md:w-[50px] max-lg:w-[50px] max-md:w-full h-screen  max-lg:w-[8%]  dark:bg-black`}
+      }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]  max-md:w-[50px] max-lg:w-[50px] max-md:w-full h-screen  max-lg:w-[8%]  `}
     >
       <div
         className={`${
@@ -159,7 +159,7 @@ const DesktopSidebar = () => {
           
         </div>
         <div
-            className="p-2 z-10 cursor-pointer  text-lg shadow-md bg-blue dark:bg-black dark:border-gray-600 dark:border rounded-full text-blue-700 absolute top-[5.5rem] -right-5"
+            className="p-2 z-10 cursor-pointer  text-lg shadow-md bg-blue   rounded-full text-blue-700 absolute top-[5.5rem] -right-5"
             onClick={() => setShow(!show)}
           >
             <BsArrowLeftRight />
