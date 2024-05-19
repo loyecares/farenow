@@ -7,7 +7,7 @@ import DesktopSidebar from "@/components/sidebars/desktopSidebar";
 import Image from "next/image";
 
 export default function DashboardHome() {
-  return <div className="max-h-full flex flex-wrap gap-3 lg:justify-start justify-center">
+  return <div className="max-h-full flex flex-wrap gap-5 lg:justify-start justify-center">
     
   
     <Card 
