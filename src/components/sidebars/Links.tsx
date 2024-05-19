@@ -20,7 +20,7 @@ const NavLink: FC<navProps> = ({ text, icon: Icon, route, style }) => {
         <p className={`${style} text-xl mb-[0.17rem] pl-1 `}>{<Icon />}</p>
 
         {/* nav */}
-        <p className={`${style} max-lg:hidden text-sm`}>{text}</p>
+       
       </Link>
     </div>
   );

@@ -35,11 +35,11 @@ const DesktopSidebar = () => {
         show
           ? "w-[100px] bg-blue text-white"
           : "w-[100px] bg-blue text-white"
-      }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]  max-md:w-[100px] h-screen   `}
+      }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]   h-screen  max-md: w-[70px] `}
     >
       <div
         className={`${
-          show ? "w-[90%]" : "w-[60%] "
+          show ? "w-[90%]" : "w-[inherit] "
         } h-[95%] flex items-center flex-col`}
       >
         {/* logo and name */}
