@@ -33,14 +33,14 @@ const DesktopSidebar = () => {
     <div
       className={`${
         show
-          ? "w-[130px] bg-blue text-white"
-          : "w-[130px] bg-blue text-white"
+          ? "w-[140px] bg-blue text-white"
+          : "w-[140px] bg-blue text-white"
       }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]   h-screen  max-md: w-[90px]  `}
     >
       <div
         className={`${
           show ? "w-[90%]" : "w-[inherit] "
-        } h-[100vh] flex items-center flex-col pt-[30px] pb-4`}>
+        } h-[100vh] flex items-center flex-col pt-[25px] pb-4`}>
         
         {/* logo and name */}
 

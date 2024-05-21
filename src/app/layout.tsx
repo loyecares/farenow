@@ -34,7 +34,7 @@ export default function RootLayout({
           <div className="w-full">
             <div className="w-full   px-5 mt-4 pb-2 md:px-8  ">
               <div className="flex h-[90px]  justify-between items-center pb-2 ">
-                <p className="font-semibold">Marketing</p>
+                <p className="font-semibold text-xl max-md:text-base">Marketing</p>
                 <div className="flex  gap-2 items-center">
                   <NotificationIcon/>
                   <div className="ml-4 text-end">
