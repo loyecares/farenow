@@ -3,11 +3,12 @@ import React from "react";
 export default function AnalyticsIcon() {
   return (
     <svg
-      width="18"
-      height="18"
+      width="28"
+      height="28"
       viewBox="0 0 35 35"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className=" max-md:w-[18px]  max-md:h-[18px]"
     >
       <path
         fillRule="evenodd"

@@ -33,15 +33,15 @@ const DesktopSidebar = () => {
     <div
       className={`${
         show
-          ? "w-[100px] bg-blue text-white"
-          : "w-[100px] bg-blue text-white"
-      }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]   h-screen  max-md: w-[70px] `}
+          ? "w-[130px] bg-blue text-white"
+          : "w-[130px] bg-blue text-white"
+      }  flex items-center border-r border-gray-100  sticky top-0 z-20 justify-center  transition-all ease-linear duration-[200ms]   h-screen  max-md: w-[90px]  `}
     >
       <div
         className={`${
           show ? "w-[90%]" : "w-[inherit] "
-        } h-[95%] flex items-center flex-col`}
-      >
+        } h-[100vh] flex items-center flex-col pt-[30px] pb-4`}>
+        
         {/* logo and name */}
 
         <div className="flex items-center gap-3  pb-8 ">
@@ -64,11 +64,11 @@ const DesktopSidebar = () => {
         </div>
 
         {/* navigation */}
-        <div className="flex flex-col  justify-between h-full  ">
+        <div className="flex flex-col  justify-between h-full max-md:h-[90%]  ">
           {/* first nav */}
           {/* <div className=""> */}
           <div
-            className={`flex flex-col gap-6 mt-[30px] ${
+            className={`flex flex-col gap-5  mt-[20px] ${
               show ? "items-center" : "items-center  text-xl "
             } transition-all ease-in duration-200`}
           >

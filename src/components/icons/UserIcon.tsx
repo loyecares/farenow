@@ -3,11 +3,12 @@ import React from "react";
 export default function UserIcon() {
   return (
     <svg
-      width="18"
-      height="18"
+      width="28"
+      height="28"
       viewBox="0 0 35 35"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className=" max-md:w-[18px]  max-md:h-[18px]"
     >
       <path
         d="M35 35H32.5V28.75C32.498 27.093 31.8389 25.5044 30.6672 24.3328C29.4956 23.1611 27.907 22.502 26.25 22.5V20C28.5698 20.0026 30.7939 20.9254 32.4343 22.5657C34.0746 24.2061 34.9974 26.4302 35 28.75V35Z"
